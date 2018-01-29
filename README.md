@@ -4,14 +4,14 @@ This is an interesting python project.
 It can help you to reconstruct your favourite image with many small images which has similiar color. It look like mosaic style.
 
 ---
-##Environment
+## Environment
 * python 3.6
 * scipy
 * matplotlib
 * pickle
 * numpy
 
-##Instruction
+## Instruction
 You should save an image "input.jpg" under current directory.
 
 * python process.py
