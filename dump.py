@@ -10,11 +10,8 @@ with open('dic.pkl','rb') as f:
     data = pickle.load(f)
 
 lena = mping.imread('input.jpg')
-print(lena.shape)
 row = int(np.floor(lena.shape[0]/20))
 col = int(np.floor(lena.shape[1]/20))
-print(row)
-print(col)
 
 output = np.zeros((row*20,col*20,3))
 for i in range(row):
